@@ -1,11 +1,11 @@
           MODULE=ripgrep
-         VERSION=15.1.0
+         VERSION=14.1.1
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/BurntSushi/ripgrep/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:046fa01a216793b8bd2750f9d68d4ad43986eb9c0d6122600f993906012972e8
+      SOURCE_VFY=sha256:17e1574076df56b25ab5cbbf93b8301f9ad844975a819b0879d8324a1f628997
         WEB_SITE=https://github.com/BurntSushi/ripgrep/
          ENTERED=20190417
-         UPDATED=20251027
+         UPDATED=20260307
            SHORT="Recursively searches directories for a regex pattern"
 
 cat << EOF
