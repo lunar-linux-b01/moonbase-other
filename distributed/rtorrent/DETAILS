@@ -1,11 +1,11 @@
          MODULE=rtorrent
-        VERSION=0.16.8
+        VERSION=0.16.10
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/rakshasa/rtorrent/archive/v${VERSION}.tar.gz
-     SOURCE_VFY=sha256:c2b774b917f1ea924a06b3dfa933ada2be4c3793741e193fb63fea78a5a58e56
+     SOURCE_VFY=sha256:f397d15a6b04eebd42288dace235ff1dbd1715baebc01b1f1eb5e536f889d8e9
        WEB_SITE=https://rakshasa.github.io/rtorrent/
         ENTERED=20060704
-        UPDATED=20260315
+        UPDATED=20260423
           SHORT="A BitTorrent client using libtorrent"
 
 cat << EOF
