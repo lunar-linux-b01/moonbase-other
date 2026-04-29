@@ -1,11 +1,11 @@
          MODULE=libphonenumber
-        VERSION=9.0.28
+        VERSION=9.0.29
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/google/libphonenumber/archive/refs/tags/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:cad02f401a8acaba5e15da9b1185de1cf9d32e5fab4443aa1d39fd46c58d55ab
+     SOURCE_VFY=sha256:c431caa69d26a076975c8d7cfb23850cf7b05a846065e3ed1ab02d4260fc671b
        WEB_SITE=https://github.com/googlei18n/libphonenumber
         ENTERED=20230824
-        UPDATED=20260412
+        UPDATED=20260429
           SHORT="common library to parse, format and validate international phone numbers"
 
 cat << EOF
