@@ -1,11 +1,11 @@
           MODULE=avahi
-         VERSION=0.9-rc2
+         VERSION=0.9-rc4
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/avahi/avahi/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:f64efed6a972cf92cb2dfb35abf6aa9173d62b843b15850c2f40af76a4238f8a
+      SOURCE_VFY=sha256:08fcc57377ed05416ec4b3d8a179da716a7a9376821551a5ae16f8276a1ef0b5
         WEB_SITE=http://avahi.org
          ENTERED=20060808
-         UPDATED=20241205
+         UPDATED=20260504
            SHORT="A service discovery on a local network"
 
 cat << EOF

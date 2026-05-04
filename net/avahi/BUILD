@@ -6,7 +6,7 @@ if in_depends $MODULE qt6-base; then
   source /etc/profile.d/qt6.rc
   QT6_CFLAGS="$(pkgconf --cflags /usr/lib/qt6/pkgconfig/Qt6Core.pc)" &&
   QT6_LIBS="$(pkgconf --libs /usr/lib/qt6/pkgconfig/Qt6Core.pc)" &&
-  export MOC_QT6=/usr/lib/qt6/moc
+  export MOC_QT6=/usr/lib/qt6/bin/moc
 fi &&
 
 add_priv_user avahi:avahi -d /dev/null -s /usr/bin/false &&
