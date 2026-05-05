@@ -30,8 +30,7 @@ OPTS+=" --enable-compat-howl \
         --with-systemdsystemunitdir=/usr/lib/systemd/system \
         --enable-python-dbus \
         --enable-introspection \
-        
-        --with-avahi-priv-access-group=network
+        --with-avahi-priv-access-group=network \
         --prefix=/usr \
         --sysconfdir=/etc \
         --runstatedir=/run \
