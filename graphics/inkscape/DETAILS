@@ -1,12 +1,12 @@
           MODULE=inkscape
-         VERSION=1.4.2
+         VERSION=1.4.4
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://inkscape.org/gallery/item/56344/
-      SOURCE_VFY=sha256:
+      SOURCE_VFY=sha256:8db3ffd9b8c2b8a1ee2321cbdc033e45c27c638704b6a4153b499f855e42b6d9
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/inkscape-1.4_2025-05-08_ebf0e940d0/
         WEB_SITE=https://inkscape.org/
          ENTERED=20190826
-         UPDATED=20250815
+         UPDATED=20260505
            SHORT="Full featured vector graphics editor"
 
 cat << EOF
