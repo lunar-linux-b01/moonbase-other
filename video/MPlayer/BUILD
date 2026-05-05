@@ -1,7 +1,7 @@
-# using CFLAGS other than MPlayer's auto-detected will break
-#bad_flags compiler &&
-
-#live555 is disabled by default and will be removed
+export CFLAGS="${CFLAGS/-march=x86-64/} -Wno-incompatible-pointer-types -Wno-implicit-function-declaration -Wno-int-conversion"
+export CFLAGS="${CFLAGS/-mtune=generic/}"
+export LDFLAGS="${LDFLAGS/-Wl,-O1/}"
+export LDFLAGS="${LDFLAGS/-Wl,--sort-common/}"
 
 #Instead of using that bad_flags above, which still caused a build failure,
 #allow it to decided entirely what it wants to use by removing $OPTS.
@@ -19,8 +19,6 @@
 sedit 's/-mtune=native//' config.mak &&
 
 default_make &&
-
-gather_docs etc/* &&
 
 install -d /etc/mplayer &&
 install -d /usr/share/mplayer &&
