@@ -1,10 +1,10 @@
           MODULE=Pango-Perl
          VERSION=1.227
           SOURCE=Pango-$VERSION.tar.gz
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/Pango-$VERSION
    SOURCE_URL[0]=http://search.cpan.org/CPAN/authors/id/X/XA/XAOC
    SOURCE_URL[1]=$SFORGE_URL/gtk2-perl/
       SOURCE_VFY=sha256:34b0a422df3fecd7597587048552457d48ae764c43bbefd2a9d62ceb6c8bac71
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/Pango-$VERSION
         WEB_SITE=http://search.cpan.org/~tsch/Pango/
             TYPE=perl
          ENTERED=20090318
