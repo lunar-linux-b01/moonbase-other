@@ -1,4 +1,4 @@
-depends gtk+-2
+depends gtk2-ng
 depends poppler
 depends hicolor-icon-theme
 depends desktop-file-utils
