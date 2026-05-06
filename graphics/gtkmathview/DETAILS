@@ -3,7 +3,7 @@
         SOURCE=$MODULE-$VERSION.tar.xz
     SOURCE_URL=https://github.com/AbiWord/gtkmathview/releases/download/$VERSION/
     SOURCE_VFY=sha256:2ab60a33ef1cd76591e70770799e6bc0b2600c5366933a7c1978a33a54faae44
-      WEB_SITE=http://helm.cs.unibo.it/mml-widget
+      WEB_SITE=http://helm.cs.unibo.it/mml-widget/
        ENTERED=20060921
        UPDATED=20230610
          SHORT="C++ rendering engine for MathML documents"
