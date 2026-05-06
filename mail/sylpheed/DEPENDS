@@ -1,4 +1,4 @@
-depends gtk+-2
+depends gtk2-ng
 
 optional_depends compface "" "--disable-compface" "for X-Face support"
 optional_depends %OSSL    "" "--disable-ssl"      "for pop3s and imaps"
