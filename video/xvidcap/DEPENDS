@@ -6,7 +6,7 @@ depends rarian
 optional_depends ImageMagick \
                  "" "" "For editing and previewing frames"
 
-optional_depends gtk+-2 \
+optional_depends gtk2-ng \
                  "--with-gtk2" "" \
                  "To install gvidcap (gtk+ version)"
 
