@@ -14,7 +14,7 @@ optional_depends libgnt \
                  "--disable-consoleui" \
                  "for the console UI finch"
 
-optional_depends gtk+-2 \
+optional_depends gtk2-ng \
                  "--enable-gtkui"  \
                  "--disable-gtkui" \
                  "for Gtk user interface" \
