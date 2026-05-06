@@ -1,9 +1,9 @@
           MODULE=pangox-compat
          VERSION=0.0.2
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=http://ftp.acc.umu.se/pub/gnome/sources/pangox-compat/0.0/
-      SOURCE_VFY=sha1:e02daa573769ddd41b2231f731525e5f8f26621b
-        WEB_SITE=http://www.pango.org
+          SOURCE=$MODULE-$VERSION.tar.bz2
+      SOURCE_URL=https://gitlab.gnome.org/Archive/pangox-compat/-/archive/0.0.2/
+      SOURCE_VFY=sha256:4618af0e01d62f70794ad49fe25eeb8a513aeca7d9c4937e2599398008e0e700
+        WEB_SITE=https://gitlab.gnome.org/Archive/pangox-compat
          ENTERED=20130513
          UPDATED=20130513
            SHORT="compatibility library providing the obsolete pangox "
