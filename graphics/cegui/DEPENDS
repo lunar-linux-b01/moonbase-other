@@ -7,10 +7,10 @@ depends glew
 depends freeglut
 depends SDL2_image
 depends toluapp
-depends gtk+-2
+depends gtk2-ng
 depends minizip
 depends xerces-c
-depends tinyxml
+depends tinyxml2
 
 # it's a hard depends (even if it's specified as optional)
 depends freetype2
