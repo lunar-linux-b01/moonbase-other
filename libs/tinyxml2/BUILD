@@ -1,8 +1,11 @@
-CXXFLAGS="-fPIC"
-OPTS+=" -G Ninja"
+CXXFLAGS+=" -fPIC"
 
-default_cmake_config &&
+OPTS+=" -DCMAKE_INSTALL_PREFIX=/usr \
+       -DCMAKE_BUILD_TYPE=Release \
+       -Wno-dev"
 
-ninja &&
-prepare_install &&
-ninja install
+cmake -B $MODULE-$VERSION -S . -G Ninja $OPTS &&
+cmake --build $MODULE-$VERSION &&
+
+prepare_install
+cmake --install $MODULE-$VERSION
