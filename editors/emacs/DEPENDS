@@ -26,7 +26,7 @@ optional_depends sqlite      "--with-sqlite3"     "--without-sqlite3"     "for s
 optional_depends libXaw      "--with-x"           "--with-x-toolkit=no"   "for X support GUI"
 if in_depends $MODULE libXaw; then
    optional_depends gtk+-3    "--with-x-toolkit=gtk3"  "" "for gtk+ support GUI"
-   optional_depends gtk+-2    "--with-x-toolkit=gtk2"  "" "for gtk+ support GUI"
+   optional_depends gtk2-ng   "--with-x-toolkit=gtk2"  "" "for gtk+ support GUI"
    optional_depends openMotif "--with-x-toolkit=motif" "" "for OSF/Motif standard GUI"
 fi
 
