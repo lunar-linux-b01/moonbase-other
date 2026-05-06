@@ -1,3 +1,0 @@
-mquery XINPUT "Install XINPUT support (needed for wacom tablets in gimp)?" n \
-              "--with-xinput=yes" \
-              "--with-xinput=no"
