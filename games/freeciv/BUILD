@@ -1,3 +1,5 @@
-OPTS+=" --enable-shared --enable-aimodules --disable-static"
+OPTS+=" -Dsyslua=true \
+        -Dclients=gtk4 \
+        -Dfcmp=gtk4,cli"
 
-default_game_build
+default_meson_build

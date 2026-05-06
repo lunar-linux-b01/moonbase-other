@@ -1,28 +1,12 @@
 depends curl
 depends libtool
 depends readline
+depends sqlite
 depends pango
+depends gtk
+depends SDL2_image
+depends SDL2_ttf
+depends SDL2_gfx
+depends SDL2_mixer
 
-if [ "`get_module_config GTK`" = "y" ]; then
-  optional_depends gtk+-3 "--enable-client=gtk3 --enable-fcmp=gtk3" "" "for gtk+-3 client"
-  optional_depends gtk+-2 "--enable-client=gtk2" "" "for gtk+-2 client"
-fi
-
-if [ "`get_module_config SDL2`" = "y" ]; then
-  depends SDL2_image
-  depends SDL2_ttf
-  depends SDL2_gfx
-
-  optional_depends SDL2_mixer \
-                   "--enable-sdl-mixer=sdl2" "" \
-                   "to use SDL2 mixer with SDL2 client"
-fi
-
-optional_depends sqlite \
-                 "--enable-fcdb=sqlite3" "" \
-                 "to use sqlite"
-
-# It's not compatible with lua >= 5.3
-#optional_depends lua \
-#                 "--enable-sys-lua"  "" \
-#                 "to use system installed lua"
+optional_depends lua54 "-Dsyslua=true" "-Dsyslua=false" "to use system installed lua"

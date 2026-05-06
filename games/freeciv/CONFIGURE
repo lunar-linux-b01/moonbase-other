@@ -18,13 +18,13 @@ if [ "`get_module_config CLIENTS`" = "y" ]; then
 fi
 
 if [ $CLIST = "" ]; then
-  OPTS+=" --disable-client"
+  OPTS+=" -Dclients=gtk4"
 else
   # the gtk client option is added in the DEPENDS file
   if [ "`get_module_config SDL2`" = "y" ]; then
-    OPTS+=" --enable-client=sdl2"
+    OPTS+=" -Dclients=sdl2"
   fi
 fi
 
 mquery SERV "Build freeciv server (needed for solo games, too)?" y \
-            "--enable-server" "--disable-server"
+            "-Dserver=enabled" "-Dserver=disabled"
