@@ -1,3 +1,0 @@
-default_pre_build &&
-
-sedit 's#python#python2#' gtksourceview/language-specs/convert.py

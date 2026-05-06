@@ -1,4 +1,4 @@
-depends python2
-depends gtk+-2
+depends python
+depends gtk2-ng
 depends libxml2
 depends intltool

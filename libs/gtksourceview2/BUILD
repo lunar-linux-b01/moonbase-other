@@ -1,9 +1,3 @@
-./configure --prefix=${GNOME210_PREFIX:-/usr} \
-            --build=$BUILD \
-            --sysconfdir=/etc \
-            --localstatedir=/var \
-            --infodir=${GNOME210_PREFIX:-/usr}/share/info \
-            --mandir=${GNOME210_PREFIX:-/usr}/share/man \
-            $OPTS &&
+CFLAGS="$CFLAGS -Wno-error=incompatible-pointer-types"
 
-default_make
+default_build
