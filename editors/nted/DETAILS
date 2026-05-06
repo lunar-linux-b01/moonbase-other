@@ -1,9 +1,9 @@
           MODULE=nted
          VERSION=1.10.18
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=http://vsr.informatik.tu-chemnitz.de/staff/jan/nted/sources
-      SOURCE_VFY=sha1:877e9ec58454b511ee420d91176c2e46e8f501e0
-        WEB_SITE=http://vsr.informatik.tu-chemnitz.de/staff/jan/nted/nted.xhtml
+      SOURCE_URL=https://vsr.informatik.tu-chemnitz.de/staff/jan/nted/sources/
+      SOURCE_VFY=sha256:808df3c851dbc4b24efdbf96c4e6ed28152deb301c4373268831f2a243e8f1ac
+        WEB_SITE=https://vsr.informatik.tu-chemnitz.de/staff/jan/nted/nted.xhtml
          ENTERED=20130815
          UPDATED=20130815
            SHORT="a WYSIWYG musical score editor"
