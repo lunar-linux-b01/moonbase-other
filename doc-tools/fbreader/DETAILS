@@ -1,7 +1,7 @@
           MODULE=fbreader
          VERSION=0.99.4
           SOURCE=$MODULE-sources-$VERSION.tgz
-      SOURCE_URL=https://fbreader.org/files/desktop/
+      SOURCE_URL=https://p5n.pp.ru/~sergej/dl/
       SOURCE_VFY=sha256:3d7c31d5ea314589d2a963290ad16f4d3d631a41e802b8b39f8be0c9f71eb8e9
         WEB_SITE=http://www.fbreader.org
          ENTERED=20060124
