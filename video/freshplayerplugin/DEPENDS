@@ -14,7 +14,7 @@ depends pango
 depends freetype2
 depends soxr
 
-optional_depends "gtk+-2"      "-DWITH_GTK=2"           ""                        "For gtk+-2 graphics support, ${PROBLEM_COLOR}if yes here say no to gtk+-3"
+optional_depends "gtk2-ng"     "-DWITH_GTK=2"           ""                        "For gtk+-2 graphics support, ${PROBLEM_COLOR}if yes here say no to gtk+-3"
 optional_depends "gtk+-3"      "-DWITH_GTK=3"           ""                        "For gtk+-3 graphics support"
 optional_depends "pulseaudio"  "-DWITH_PULSEAUDIO=TRUE" "-DWITH_PULSEAUDIO=FALSE" "For pulseaudio support"
 optional_depends "PDFlib-Lite" "-DWITH_LIBPDF=TRUE"     "-DWITH_LIBPDF=FALSE"     "For pdf support"
