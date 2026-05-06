@@ -1,5 +1,5 @@
 depends libcanberra
-depends gtk+-2
+depends gtk2-ng
 depends libnotify
 depends dbus-glib
 depends hicolor-icon-theme
