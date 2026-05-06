@@ -11,4 +11,4 @@ optional_depends alsa-utils    "--with-alsa"    "--without-alsa"    "for alsa su
 optional_depends libjpeg-turbo "--with-libjpeg" "--without-libjpeg" "for jpeg support"
 
 # Leaving disabled for now. The author is aware and a patch is in the works.
-#optional_depends gtk+-2        "--with-gtk"     "--without-gtk"     "For gtk support"
+#optional_depends gtk2-ng      "--with-gtk"     "--without-gtk"     "For gtk support"
