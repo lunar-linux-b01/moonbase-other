@@ -1,11 +1,11 @@
           MODULE=php
-         VERSION=8.5.5
+         VERSION=8.5.6
           SOURCE=php-$VERSION.tar.xz
       SOURCE_URL=https://www.php.net/distributions/
-      SOURCE_VFY=sha256:95bec382f4bd00570a8ef52a58ec04d8d9b9a90494781f1c106d1b274a3902f2
+      SOURCE_VFY=sha256:826c600b7c6f956bd335558ca3bdbcab23b22126c1cc8d9348be2280a2204bb7
         WEB_SITE=https://www.php.net
          ENTERED=20040919
-         UPDATED=20260408
+         UPDATED=20260507
            SHORT="PHP: Hypertext Processor scripting language"
 
 cat << EOF
