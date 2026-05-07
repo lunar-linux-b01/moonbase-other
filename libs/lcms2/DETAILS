@@ -1,11 +1,11 @@
     MODULE=lcms2
-   VERSION=2.19
+   VERSION=2.19.1
     SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL=https://github.com/mm2/Little-CMS/releases/download/lcms${VERSION}/
-SOURCE_VFY=sha256:49e7e134e4299733dd0eda434fa468997a28ab3d33fa397c642b03644f552216
+SOURCE_VFY=sha256:bfc54f7bab59fbc921012014a8032e4cba4abd46db47d46b76416a8c0b2815c8
   WEB_SITE=http://www.littlecms.com
    ENTERED=20100510
-   UPDATED=20260424
+   UPDATED=20260507
      SHORT="A small, free color management system"
 
 cat << EOF
