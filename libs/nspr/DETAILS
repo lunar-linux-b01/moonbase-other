@@ -1,12 +1,12 @@
-          MODULE=nspr
-         VERSION=4.38.2
-          SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=http://ftp.mozilla.org/pub/mozilla.org/$MODULE/releases/v${VERSION}/src
-      SOURCE_VFY=sha256:e4092faeab77bdc9b32db1113e4215948ee768e26c4666db3b5a60b35f2c9105
-        WEB_SITE=http://www.mozilla.org/projects/nspr
-         ENTERED=20100104
-         UPDATED=20251111
-           SHORT="Netscape Portable Runtime (NSPR)"
+    MODULE=nspr
+   VERSION=4.39
+    SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL=http://ftp.mozilla.org/pub/mozilla.org/$MODULE/releases/v${VERSION}/src
+SOURCE_VFY=sha256:bbd02ee87a55676063a63e5bc819e0227de2666b47307b2a0134414cdf42368e
+  WEB_SITE=http://www.mozilla.org/projects/nspr
+   ENTERED=20100104
+   UPDATED=20260507
+     SHORT="Netscape Portable Runtime (NSPR)"
 
 cat << EOF
 This provides a platform-neutral API for system level and libc like functions.
