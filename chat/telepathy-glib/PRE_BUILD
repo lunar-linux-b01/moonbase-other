@@ -1,3 +1,5 @@
 default_pre_build &&
 
 export LANG='en_US.UTF-8'
+
+OPTS+=" --libexecdir=/usr/lib/telepathy"
