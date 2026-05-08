@@ -1,11 +1,11 @@
           MODULE=fetchmail
-         VERSION=6.6.0
+         VERSION=6.6.4
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=$SFORGE_URL/$MODULE/branch_${VERSION%.*}
-      SOURCE_VFY=sha256:7b9c19e6683e827d556751aa5db5d44b961e87be8b3087535b4909ba1b59321c
+      SOURCE_VFY=sha256:efe01690d22bda359a579c77e2b0072658a092bff490ec0478a212c6b7d0eb70
         WEB_SITE=https://www.berlios.de/software/fetchmail/
          ENTERED=20010922
-         UPDATED=20251029
+         UPDATED=20260508
            SHORT="A full-featured remote-mail retrieval and forwarding utility"
 
 cat << EOF
