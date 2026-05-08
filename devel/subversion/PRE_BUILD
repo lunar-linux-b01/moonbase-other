@@ -1,0 +1,7 @@
+default_pre_build
+
+patch -Np0 -i $SCRIPT_DIRECTORY/subversion.rpath.fix.patch
+
+rm subversion/bindings/swig/proxy/*.swg
+
+./autogen.sh
