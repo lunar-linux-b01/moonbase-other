@@ -1,12 +1,12 @@
           MODULE=fish
-         VERSION=4.7.0
+         VERSION=4.7.1
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-shell-$VERSION
  SOURCE_URL_FULL=https://github.com/fish-shell/fish-shell/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:8e0f20c770bab4f5b2a24d073b731f632e52bd89bdd0de7d4c7ecd4d2e85ee32
+      SOURCE_VFY=sha256:ce303c80fb61993f2ba4ceeca88e0dd6ad5876c4e064661ad31b715128dc7fe4
         WEB_SITE=https://fishshell.com/
          ENTERED=20191024
-         UPDATED=20260507
+         UPDATED=20260508
            SHORT="fish is a smart and user-friendly command line shell"
 
 cat << EOF
