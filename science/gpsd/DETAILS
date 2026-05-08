@@ -1,8 +1,9 @@
           MODULE=gpsd
          VERSION=3.27.5
-          SOURCE=$MODULE-release-$VERSION.tar.xz
+          SOURCE=$MODULE-release-$VERSION.tar.bz2
       SOURCE_URL=https://gitlab.com/gpsd/gpsd/-/archive/release-3.27.5/
-      SOURCE_VFY=sha256:
+      SOURCE_VFY=sha256:5bc91b52bdfb16164a7f1da9a94f38ffa9ec35f27de59e491aff742d40cdbe5c
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-release-$VERSION
         WEB_SITE=https://gpsd.gitlab.io/gpsd/index.html
          ENTERED=20070609
          UPDATED=20260506
