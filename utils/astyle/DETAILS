@@ -1,12 +1,12 @@
     MODULE=astyle
-   VERSION=3.6.14
+   VERSION=3.6.15
     SOURCE=$MODULE-$VERSION.tar.bz2
 SOURCE_URL=$SFORGE_URL/astyle/
-SOURCE_VFY=sha256:1c46fdc22cbe99c603593993b750baa4ca2e0b4c9e4b1d90e2fb60d749d608d0
+SOURCE_VFY=sha256:5b4077d68b5941608916cd8a263046a3561f97593703c04831c730b230a81ae9
   WEB_SITE=https://astyle.sourceforge.net/
       TYPE=cmake
    ENTERED=20100403
-   UPDATED=20260317
+   UPDATED=20260508
      SHORT="Formatter for C, C++, C#, and Java Source Code"
 
 cat << EOF
