@@ -1,5 +1,7 @@
 default_pre_build &&
 
-sed -e 's|/usr/bin/env python|/usr/bin/env python2|' -i plugins/telepathy-gabble-xmpp-console &&
+autoreconf -fiv
 
-OPTS+=" --disable-Werror"
+cd lib/ext/wocky
+autoreconf -fiv
+cd ../../../
