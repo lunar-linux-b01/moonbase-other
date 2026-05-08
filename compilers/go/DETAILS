@@ -1,13 +1,13 @@
           MODULE=go
-         VERSION=1.26.2
+         VERSION=1.26.3
           SOURCE=${MODULE}$VERSION.src.tar.gz
    SOURCE_URL[0]=https://dl.google.com/go/
    SOURCE_URL[1]=https://go.dev/dl/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE
-      SOURCE_VFY=sha256:2e91ebb6947a96e9436fb2b3926a8802efe63a6d375dffec4f82aa9dbd6fd43b
+      SOURCE_VFY=sha256:1c646875d0aa8799133184ed57cf79ff24bdefe8c8820470602a9d3d6d9192b8
         WEB_SITE=http://golang.org/
          ENTERED=20140606
-         UPDATED=20260408
+         UPDATED=20260508
            SHORT="Compiler and tools for the Go programming language from Google"
 
 cat << EOF
