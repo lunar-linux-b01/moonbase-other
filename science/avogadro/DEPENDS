@@ -1,5 +1,5 @@
 depends libarchive
 depends hdf5
 depends cmake
-depends qt5
+depends qt6-base
 depends avogadrolibs
