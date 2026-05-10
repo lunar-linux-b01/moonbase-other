@@ -1,11 +1,11 @@
          MODULE=simdjson
-        VERSION=4.6.2
+        VERSION=4.6.4
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/simdjson/simdjson/archive/refs/tags/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:c240d4bffcccda4fe3a2bba2872718d96fc92e56d2615bfac4f9b2bad89a6386
+     SOURCE_VFY=sha256:b091107844fe928158c5c2265c20360fff312889ddf7ebc4528a0f0f8f2ff9cd
        WEB_SITE=https://github.com/simdjson/simdjson
         ENTERED=20240916
-        UPDATED=20260418
+        UPDATED=20260510
           SHORT="parsing gigabytes of JSON per second"
 
 cat << EOF
