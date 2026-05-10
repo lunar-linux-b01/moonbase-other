@@ -8,3 +8,7 @@ optional_depends vala \
                  "-DLIBICAL_GLIB_VAPI=OFF" \
                  "for vala support" \
                  "y"
+
+optional_depends %JAVA_SDK "-DLIBICAL_JAVA_BINDINGS=ON" \
+                           "-DLIBICAL_JAVA_BINDINGS=OFF" \
+                           "for java bindings support"
