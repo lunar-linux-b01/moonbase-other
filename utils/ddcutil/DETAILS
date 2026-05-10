@@ -1,11 +1,11 @@
          MODULE=ddcutil
-        VERSION=2.2.6
+        VERSION=2.2.7
          SOURCE=${MODULE}-${VERSION}.tar.gz
 SOURCE_URL_FULL=https://github.com/rockowitz/ddcutil/archive/refs/tags/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:7bf4420778894caf37ca5f7bade34f7a31d996d92618bb85e18de55a5e5ac465
+     SOURCE_VFY=sha256:7b5cb9824c23974241146f4a696abc65f8e9d1e950198c8dc00e4a5c6a2f41ee
        WEB_SITE=https://www.ddcutil.com
         ENTERED=20240308
-        UPDATED=20260318
+        UPDATED=20260510
           SHORT="change and query monitor settings"
 
 cat << EOF
