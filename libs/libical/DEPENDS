@@ -4,7 +4,7 @@ depends icu4c
 depends timezone-data
 
 optional_depends vala \
-                 "-DICAL_GLIB_VAPI=1" \
-                 "-DICAL_GLIB_VAPI=0" \
+                 "-DLIBICAL_GLIB_VAPI=ON" \
+                 "-DLIBICAL_GLIB_VAPI=OFF" \
                  "for vala support" \
                  "y"
