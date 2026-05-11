@@ -1,15 +1,16 @@
-          MODULE=mimalloc
-         VERSION=3.0.11
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/microsoft/mimalloc/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:c2cadf7f0ff007f63be3b6cf99855abfc5aaff7f34bdd408b405d5f7b63f8561
-        WEB_SITE=https://github.com/microsoft/mimalloc
-         ENTERED=20240303
-         UPDATED=20251212
-           SHORT="general purpose allocator with excellent performance characteristics"
+         MODULE=mimalloc
+        VERSION=3.3.2
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/microsoft/mimalloc/archive/refs/tags/v$VERSION.tar.gz
+     SOURCE_VFY=sha256:ca02384e007f46950598500dfaebde5ff9948c1d231f5a81b058799afa64bbbb
+       WEB_SITE=https://github.com/microsoft/mimalloc
+        ENTERED=20240303
+        UPDATED=20260512
+          SHORT="general purpose allocator with excellent performance characteristics"
 
 cat << EOF
-Mimalloc (pronounced "me-malloc") is a general purpose allocator with excellent performance characteristics.
+Mimalloc (pronounced "me-malloc") is a general purpose allocator with excellent
+performance characteristics.
 
 Can be used like this;
 LD_PRELOAD=/usr/lib/libmimalloc.so  myprogram
