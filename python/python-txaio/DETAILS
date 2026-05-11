@@ -1,7 +1,7 @@
           MODULE=python-txaio
          VERSION=25.12.2
           SOURCE=txaio-$VERSION.tar.gz
-      SOURCE_URL=https://files.pythonhosted.org/packages/source/t/txaio/
+      SOURCE_URL=https://pypi.io/packages/source/t/txaio/
       SOURCE_VFY=sha256:9f232c21e12aa1ff52690e365b5a0ecfd42cc27a6ec86e1b92ece88f763f4b78
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/txaio-$VERSION
         WEB_SITE=https://github.com/crossbario/txaio
