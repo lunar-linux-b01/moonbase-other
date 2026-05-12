@@ -31,11 +31,6 @@ optional_depends openmp \
     "-DWITH_OPENMP=OFF" \
     "for multithread filter rendering (highly recommended)"
 
-optional_depends dbus-glib \
-    "-DWITH_DBUS=ON" \
-    "-DWITH_DBUS=OFF" \
-    "for dbus support"
-
 optional_depends gspell \
     "-DWITH_GSPELL=ON" \
     "-DWITH_GSPELL=OFF" \
