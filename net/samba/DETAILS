@@ -1,12 +1,12 @@
           MODULE=samba
-         VERSION=4.24.1
+         VERSION=4.24.2
           SOURCE=$MODULE-$VERSION.tar.gz
    SOURCE_URL[1]=https://us1.samba.org/samba/ftp/stable/
    SOURCE_URL[2]=https://download.samba.org/pub/samba/stable/
-      SOURCE_VFY=sha256:217151ca318a5576f8e0de72ba0acdf08157ecf12adac42d1af86db0b09a5f5a
+      SOURCE_VFY=sha256:ac24583f271a82ac324f7c6fad7327f65b591ad3492e1dccfee988e2c1c81dd1
         WEB_SITE=https://www.samba.org
          ENTERED=20010922
-         UPDATED=20260417
+         UPDATED=20260513
            SHORT="Samba provides file and print services to SMB/CIFS clients"
 
 cat << EOF
