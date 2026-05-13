@@ -1,4 +1,5 @@
-OPTS+=" --disable-static"
+OPTS+=" --disable-static \
+        --without-nettle"
 
 default_config &&
 #to prevent overlinking

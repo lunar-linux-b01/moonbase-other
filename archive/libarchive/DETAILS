@@ -5,7 +5,7 @@
       SOURCE_VFY=sha256:d3a8ba457ae25c27c84fd2830a2efdcc5b1d40bf585d4eb0d35f47e99e5d4774
         WEB_SITE=https://libarchive.org
          ENTERED=20080124
-         UPDATED=20260413
+         UPDATED=20260513
            SHORT="create and read several different streaming archive formats"
 
 cat << EOF
