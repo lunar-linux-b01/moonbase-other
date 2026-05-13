@@ -17,4 +17,4 @@ OPTS+=" --shared --shared-cares --without-npm --shared-zlib --shared-openssl"
 default_make &&
 
 cd /usr/lib &&
-ln -s libnode.so.141 linode.so
+ln -s libnode.so.147 linode.so
