@@ -1,11 +1,11 @@
           MODULE=postgresql
-         VERSION=18.3
+         VERSION=18.4
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://ftp.postgresql.org/pub/source/v${VERSION}/
-      SOURCE_VFY=sha256:d95663fbbf3a80f81a9d98d895266bdcb74ba274bcc04ef6d76630a72dee016f
+      SOURCE_VFY=sha256:81a81ec695fb0c7901407defaa1d2f7973617154cf27ba74e3a7ab8e64436094
         WEB_SITE=http://www.postgresql.org/
          ENTERED=20011113
-         UPDATED=20260226
+         UPDATED=20260514
            SHORT="A sophisticated Object-Relational DBMS"
 
 cat << EOF
