@@ -7,7 +7,7 @@ SOURCE_URL_FULL=https://github.com/haasn/libplacebo/archive/refs/tags/v$VERSION.
            TYPE=meson
         ENTERED=20221203
         UPDATED=20260316
-          SHORT="gpu accelerated video and image rendering primitives"
+          SHORT="GPU accelerated video and image rendering primitives"
 
 cat << EOF
 A reusable library for GPU accelerated video and image rendering primitives.
