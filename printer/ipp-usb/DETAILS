@@ -1,11 +1,11 @@
          MODULE=ipp-usb
-        VERSION=0.9.32
+        VERSION=0.9.33
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/OpenPrinting/ipp-usb/archive/${VERSION}.tar.gz
-     SOURCE_VFY=sha256:03b8f166b2f092de29f374bd912901be164986acfadd902275f561237e938dea
+     SOURCE_VFY=sha256:bafefb6069f6eebb50164fc9714a806ff59549ec5ed66c97add6d5b69f8b089a
        WEB_SITE=https://github.com/OpenPrinting/ipp-usb/
         ENTERED=20201006
-        UPDATED=20260427
+        UPDATED=20260514
           SHORT="Allows using the IPP protocol by USB printers"
 
 cat << EOF
