@@ -1,13 +1,13 @@
-          MODULE=cmocka
-         VERSION=2.0.1
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=https://cmocka.org/files/${VERSION%.*}/
-      SOURCE_VFY=sha256:3f3533382ba29ab3abf5c4f4b27b79d165f0df51ea587de749b11b68b4019180
-        WEB_SITE=https://cmocka.org/
-            TYPE=cmake
-         ENTERED=20240725
-         UPDATED=20260101
-           SHORT="unit testing framework for C"
+    MODULE=cmocka
+   VERSION=2.0.2
+    SOURCE=$MODULE-$VERSION.tar.xz
+SOURCE_URL=https://cmocka.org/files/${VERSION%.*}/
+SOURCE_VFY=sha256:39f92f366bdf3f1a02af4da75b4a5c52df6c9f7e736c7d65de13283f9f0ef416
+  WEB_SITE=https://cmocka.org/
+      TYPE=cmake
+   ENTERED=20240725
+   UPDATED=20260514
+     SHORT="unit testing framework for C"
 
 cat << EOF
 An elegant unit testing framework for C with support for mock objects. It only
