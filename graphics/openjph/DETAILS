@@ -1,13 +1,13 @@
           MODULE=openjph
-         VERSION=0.27.2
+         VERSION=0.27.3
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/aous72/OpenJPH/archive/refs/tags/$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/OpenJPH-$VERSION
-      SOURCE_VFY=sha256:0aee36d16cc7a93aca031bfec7beb7e272c8ea9cfa8773536187f96476d22565
+      SOURCE_VFY=sha256:f96808ef72cf3acca73a52123bda3e680f6550dfb4774ad7de57eb3ce26de57a
         WEB_SITE=https://github.com/aous72/OpenJPH
             TYPE=cmake
          ENTERED=20251105
-         UPDATED=20260510
+         UPDATED=20260514
            SHORT="implementation of High-throughput JPEG2000"
 
 cat << EOF
