@@ -1,11 +1,11 @@
           MODULE=dash
-         VERSION=0.5.13.2
+         VERSION=0.5.13.4
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://gondor.apana.org.au/~herbert/dash/files/
-      SOURCE_VFY=sha256:e7136826b1eed6ce3193e8affa2f70b1b2b9168dd91ffa7ddb4f46e9e62054fe
+      SOURCE_VFY=sha256:d10dfd41cda59165560db39ca915c2c4a7636fff04281d8d2df77ad92c753e2b
         WEB_SITE=http://gondor.apana.org.au/~herbert/dash/
          ENTERED=20141004
-         UPDATED=20260401
+         UPDATED=20260515
            SHORT="Small, fast, basic implementation of /bin/sh"
 PSAFE=no
 
