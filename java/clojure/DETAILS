@@ -1,13 +1,13 @@
           MODULE=clojure
-         VERSION=1.12.4
-         TOOLVER=1618
+         VERSION=1.12.5
+         TOOLVER=1645
           SOURCE=$MODULE-tools-$VERSION.$TOOLVER.tar.gz
       SOURCE_URL=https://download.clojure.org/install/
-      SOURCE_VFY=sha256:13769da6d63a98deb2024378ae1a64e4ee211ac1035340dfca7a6944c41cde21
+      SOURCE_VFY=sha256:4a8612e7fd725ec8e453f870b22d5bc1a68eeff774c3d79329a985f351c0b83b
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-tools
         WEB_SITE=http://clojure.org/
          ENTERED=20150713
-         UPDATED=20260312
+         UPDATED=20260515
            SHORT="LISP for the JVM"
 
 cat << EOF
