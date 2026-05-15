@@ -32,3 +32,6 @@ sed -e 's:truetype/ttf-dejavu:TTF:g' -i modules/visualization/projectm.cpp
 sed -e 's|-Werror-implicit-function-declaration||g' -i configure
 sed 's|whoami|echo builduser|g' -i configure
 sed 's|hostname -f|echo arch|g' -i configure
+
+# Fix build with gstreamer 1.28
+sed -i '/#include <gst\/gstbufferpool.h>/d; /#include <gst\/video\/gstvideopool.h>/d' modules/codec/gstreamer/gstvlcvideopool.h
