@@ -1,8 +1,8 @@
           MODULE=mpd
-         VERSION=0.24.11
+         VERSION=0.24.12
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/MusicPlayerDaemon/MPD/archive/refs/tags/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:b9af4494cde19dcea9333f9e0d979aa55ce215c0c0923c662dc6f6259ebca331
+      SOURCE_VFY=sha256:331549c8d90e822b82e1da68913bbfa0ce6bdbba525f17eafdc642cc87c4986e
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/MPD-$VERSION
         WEB_SITE=https://musicpd.org
          ENTERED=20060421
