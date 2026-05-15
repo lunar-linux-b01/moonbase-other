@@ -1,13 +1,13 @@
           MODULE=python-numpy
-         VERSION=2.4.3
+         VERSION=2.4.5
           SOURCE=numpy-$VERSION.tar.gz
       SOURCE_URL=https://pypi.python.org/packages/source/n/numpy/
-      SOURCE_VFY=sha256:483a201202b73495f00dbc83796c6ae63137a9bdade074f7648b3e32613412dd
+      SOURCE_VFY=sha256:ca670567a5683b7c1670ec03e0ddd5862e10934e92a70751d68d7b7b74ca7f9f
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/numpy-$VERSION
         WEB_SITE=http://www.numpy.org/
         REPLACES=numpy
          ENTERED=20020708
-         UPDATED=20260309
+         UPDATED=20260515
            SHORT="Fundamental package for scientific computing with Python"
 
 cat << EOF
