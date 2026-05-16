@@ -2,3 +2,4 @@ depends sqlite
 depends zlib
 depends nspr
 depends p11-kit
+depends libtasn1
