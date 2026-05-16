@@ -1,12 +1,12 @@
-          MODULE=postfix
-         VERSION=3.11.2
-          SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=ftp://ftp.porcupine.org/mirrors/postfix-release/official/
-      SOURCE_VFY=sha256:daed65b08c9288cdb386a914f3e52cdddd44935407b5ce5aee8bcc3aa4207778
-        WEB_SITE=https://www.postfix.org/
-         ENTERED=20020125
-         UPDATED=20260503
-           SHORT="A fast and secure drop-in replacement for sendmail"
+    MODULE=postfix
+   VERSION=3.11.3
+    SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL=ftp://ftp.porcupine.org/mirrors/postfix-release/official/
+SOURCE_VFY=sha256:bd11dcc463d7045e40f2c11cc00216489c73b58cc40b3d06c54265b088a173e1
+  WEB_SITE=https://www.postfix.org/
+   ENTERED=20020125
+   UPDATED=20260516
+     SHORT="A fast and secure drop-in replacement for sendmail"
 
 cat << EOF
 Postfix provides an alternative to the widely-used Sendmail program.
