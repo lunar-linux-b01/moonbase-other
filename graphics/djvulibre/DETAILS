@@ -1,12 +1,12 @@
           MODULE=djvulibre
-         VERSION=3.5.29
+         VERSION=3.5.30
           SOURCE=$MODULE-release.$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-release.$VERSION/
  SOURCE_URL_FULL=https://github.com/barak/djvulibre/archive/refs/tags/release.$VERSION.tar.gz
-      SOURCE_VFY=sha256:5e1bcc818cfc5e8d32b7b89447439223ffb495e0b6b4d08ebd19892e17d17484
+      SOURCE_VFY=sha256:f97054c3352b7c1633b086456a1a84bb38e54accd0c238e9e8f7eee8df7bffe6
         WEB_SITE=http://djvu.sourceforge.net
          ENTERED=20071027
-         UPDATED=20250704
+         UPDATED=20260516
            SHORT="A web-centric platform for distributing documents and images"
 
 cat << EOF
