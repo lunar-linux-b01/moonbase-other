@@ -1,12 +1,12 @@
-          MODULE=ffmpeg
-         VERSION=8.1
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=https://www.ffmpeg.org/releases
-      SOURCE_VFY=sha256:b072aed6871998cce9b36e7774033105ca29e33632be5b6347f3206898e0756a
-        WEB_SITE=https://www.ffmpeg.org/
-         ENTERED=20020327
-         UPDATED=20260421
-           SHORT="ffmpeg is an avi decoder"
+    MODULE=ffmpeg
+   VERSION=8.1.1
+    SOURCE=$MODULE-$VERSION.tar.xz
+SOURCE_URL=https://www.ffmpeg.org/releases
+SOURCE_VFY=sha256:b6863adde98898f42602017462871b5f6333e65aec803fdd7a6308639c52edf3
+  WEB_SITE=https://www.ffmpeg.org/
+   ENTERED=20020327
+   UPDATED=20260516
+     SHORT="ffmpeg is an avi decoder"
 
 cat << EOF
 FFmpeg is the first complete and free Internet Live Audio and Video Broadcasting
